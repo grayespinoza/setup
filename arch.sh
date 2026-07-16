@@ -10,7 +10,7 @@ sudo ufw default allow outgoing
 sudo ufw enable
 sudo systemctl enable ufw.service
 
-sudo pacman -S --noconfirm git less
+sudo pacman -S --noconfirm git less base-devel
 
 sudo pacman -S --noconfirm docker docker-compose
 
@@ -21,4 +21,10 @@ sudo usermod -aG docker $USER
 
 sudo pacman -S --noconfirm flatpak
 
-sudo pacman -S --noconfirm neovim wezterm yazi
+sudo pacman -S --noconfirm neovim yazi
+
+mkdir -p ~/aur
+cd ~/aur
+git clone https://aur.archlinux.org/wezterm-git.git
+cd wezterm-git
+makepkg -si
