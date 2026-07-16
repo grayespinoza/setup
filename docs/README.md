@@ -10,6 +10,14 @@ cat arch.sh
 bash arch.sh
 ```
 
+### Dotfiles
+
+```shell
+curl -fsSLO https://raw.githubusercontent.com/grayespinoza/setup/main/dotfiles.sh
+cat dotfiles.sh
+bash dotfiles.sh
+```
+
 ### Hyprland
 
 ```shell
