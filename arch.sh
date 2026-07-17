@@ -19,6 +19,8 @@ sudo systemctl start docker.service
 
 sudo usermod -aG docker $USER
 
+sudo pacman -S --noconfirm podman podman-compose
+
 sudo pacman -S --noconfirm flatpak
 
 sudo pacman -S --noconfirm neovim yazi
