@@ -28,3 +28,5 @@ cd ~/aur
 git clone https://aur.archlinux.org/wezterm-git.git
 cd wezterm-git
 makepkg -si
+
+flatpak install -y flathub com.github.tchx84.Flatseal io.gitlab.librewolf-community
