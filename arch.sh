@@ -23,6 +23,8 @@ sudo pacman -S --noconfirm flatpak
 
 sudo pacman -S --noconfirm neovim yazi
 
+sudo pacman -S --noconfirm keepassxc
+
 mkdir -p ~/aur
 cd ~/aur
 git clone https://aur.archlinux.org/wezterm-git.git
