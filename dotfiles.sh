@@ -9,6 +9,7 @@ ln -s ~/.repo/.dotfiles/.bashrc ~/
 ln -s ~/.repo/.dotfiles/.gitconfig ~/
 ln -s ~/.repo/.dotfiles/.wezterm.lua ~/
 
+ln -s ~/.repo/.dotfiles/.config/foot ~/.config/
 ln -s ~/.repo/.dotfiles/.config/hypr ~/.config/
 ln -s ~/.repo/.dotfiles/.config/mpd ~/.config/
 ln -s ~/.repo/.dotfiles/.config/mpv ~/.config/
