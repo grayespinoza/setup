@@ -12,12 +12,12 @@ sudo systemctl enable ufw.service
 
 sudo pacman -S --noconfirm git less base-devel
 
-sudo pacman -S --noconfirm docker docker-compose
+#sudo pacman -S --noconfirm docker docker-compose
 
-sudo systemctl enable docker.service
-sudo systemctl start docker.service
+#sudo systemctl enable docker.service
+#sudo systemctl start docker.service
 
-sudo usermod -aG docker $USER
+#sudo usermod -aG docker $USER
 
 sudo pacman -S --noconfirm podman podman-compose
 
