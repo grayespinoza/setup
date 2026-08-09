@@ -15,4 +15,5 @@ ln -s ~/.repo/.dotfiles/.config/mpd ~/.config/
 ln -s ~/.repo/.dotfiles/.config/mpv ~/.config/
 ln -s ~/.repo/.dotfiles/.config/nvim ~/.config/
 ln -s ~/.repo/.dotfiles/.config/rmpc ~/.config/
+ln -s ~/.repo/.dotfiles/.config/waybar ~/.config/
 ln -s ~/.repo/.dotfiles/.config/yazi ~/.config/
