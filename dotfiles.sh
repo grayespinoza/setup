@@ -11,6 +11,7 @@ ln -s ~/.repo/.dotfiles/.wezterm.lua ~/
 
 ln -s ~/.repo/.dotfiles/.config/foot ~/.config/
 ln -s ~/.repo/.dotfiles/.config/hypr ~/.config/
+ln -s ~/.repo/.dotfiles/.config/MangoHud ~/.config/
 ln -s ~/.repo/.dotfiles/.config/mpd ~/.config/
 ln -s ~/.repo/.dotfiles/.config/mpv ~/.config/
 ln -s ~/.repo/.dotfiles/.config/nvim ~/.config/
